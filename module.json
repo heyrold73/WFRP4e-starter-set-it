@@ -1,0 +1,111 @@
+{
+  "id": "wfrp4e-starter-set-it",
+  "name": "wfrp4e-starter-set-it",
+  "title": "WFRP4e - Starter Set-it",
+  "description": "Explore the bustling city of Ubersreik and uncover the adventures within using this comprehensive module for the Warhammer Fantasy Roleplay 4th Edition System.",
+  "version": "1.0.0",
+  "authors": [
+      {
+        "name": "Heyrold",
+        "discord": "Heyrold#4406",
+        "flags": {}
+      }
+    ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "scripts": [],
+  "styles": [],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "PNG (Starter Set)",
+      "type": "Actor",
+      "path": "./packs/actors",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-starter-set/assets/banners/docks.webp"
+    },
+    {
+      "name": "items",
+      "label": "Articoli (Starter Set)",
+      "type": "Item",
+      "path": "./packs/items",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-starter-set/assets/banners/strohmann-markt.webp"
+    },
+    {
+      "name": "journals",
+      "label": "Diario (Starter Set)",
+      "type": "JournalEntry",
+      "path": "./packs/journals",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-starter-set/assets/banners/johann.webp"
+    },
+    {
+      "name": "tables",
+      "label": "Tabelle (Starter Set)",
+      "type": "RollTable",
+      "path": "./packs/tables",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-starter-set/assets/banners/ubersreik-town.webp"
+    },
+    {
+      "name": "scenes",
+      "label": "Scene (Starter Set)",
+      "type": "Scene",
+      "path": "./packs/scenes",
+      "system": "wfrp4e",
+      "banner": "./modules/wfrp4e-starter-set/assets/banners/ubersreik.webp"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Starter Set",
+      "sorting": "m",
+      "color": "#085872",
+      "packs": [
+        "actors",
+        "items",
+        "journals",
+        "tables",
+        "scenes"
+      ]
+    }
+  ],
+  "flags": {
+    "initializationPacks": [
+      "wfrp4e-starter-set.actors",
+      "wfrp4e-starter-set.journals",
+      "wfrp4e-starter-set.scenes",
+      "wfrp4e-starter-set.tables"
+    ],
+    "folder": {
+      "name": "Starter Set",
+      "sorting": "m",
+      "color": "#085872"
+    }
+  },
+  "languages": [],
+  "media": [
+    {
+      "type": "setup",
+      "url": "./modules/wfrp4e-starter-set/assets/setup.webp"
+    }
+  ],
+  "minimumCoreVersion": 11,
+  "compatibleCoreVersion": 11,
+  "compatibility": {
+    "minimum": 11,
+    "verified": 11,
+    "maximum": 11
+  },
+  "url": "https://github.com/heyrold73/wfrp4e-starter-set-it",
+  "manifest": "https://github.com/heyrold73/wfrp4e-starter-set-it/releases/latest/download/module.json",
+  "download": "https://github.com/heyrold73/wfrp4e-starter-set-it/releases/latest/download/module.zip"
+}
