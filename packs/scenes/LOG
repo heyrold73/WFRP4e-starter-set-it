@@ -1,0 +1,8 @@
+2024/04/07-14:22:59.307 3310 Recovering log #96
+2024/04/07-14:22:59.307 3310 Delete type=0 #96
+2024/04/07-14:22:59.307 3310 Delete type=3 #94
+2024/04/07-14:27:41.754 1654 Level-0 table #101: started
+2024/04/07-14:27:41.754 1654 Level-0 table #101: 0 bytes OK
+2024/04/07-14:27:41.754 1654 Delete type=0 #99
+2024/04/07-14:27:41.754 1654 Manual compaction at level-0 from '!scenes!LyOavLLMR3Y5Hq09' @ 72057594037927935 : 1 .. '!scenes.notes!qInNaOV1JVu4SyQU.zcc7haugHNqLZyzX' @ 0 : 0; will stop at (end)
+2024/04/07-14:27:41.786 1654 Manual compaction at level-1 from '!scenes!LyOavLLMR3Y5Hq09' @ 72057594037927935 : 1 .. '!scenes.notes!qInNaOV1JVu4SyQU.zcc7haugHNqLZyzX' @ 0 : 0; will stop at (end)
